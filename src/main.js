@@ -1,6 +1,8 @@
+const load = () => import("./constants");
+
+export async function preload() {
+  load();
+}
 export async function compute() {
-  return (
-    (await import("./constants")).default +
-    (await import("./constants")).default
-  );
+  return { first: (await load()).default, second: (await load()).default };
 }
