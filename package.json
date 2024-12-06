@@ -1,0 +1,15 @@
+{
+  "name": "imported-twice-vitest-bug",
+  "version": "1.0.0",
+  "description": "Is there a bug in Vitest when importing twice the same file? Let's confirm it or not.",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "vitest": "^2.1.8"
+  }
+}
